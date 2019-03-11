@@ -32,6 +32,8 @@ Style/FrozenStringLiteralComment:
   Enabled: false
 Style/Lambda:
   Enabled: false
+Style/EmptyMethod:
+  EnforcedStyle: expanded
 
 Metrics/ClassLength:
   Enabled: false
