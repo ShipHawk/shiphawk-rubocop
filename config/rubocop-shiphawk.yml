@@ -51,6 +51,8 @@ Layout/AlignHash:
   Enabled: false
 Layout/EndAlignment:
   Enabled: false
+Layout/IndentHash:
+  EnforcedStyle: consistent
 
 Bundler/OrderedGems:
   Enabled: false
