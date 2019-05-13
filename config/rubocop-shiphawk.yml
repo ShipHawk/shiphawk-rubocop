@@ -32,6 +32,8 @@ Style/FrozenStringLiteralComment:
   Enabled: false
 Style/Lambda:
   Enabled: false
+Style/NumericLiterals:
+  Enabled: false
 
 Metrics/ClassLength:
   Enabled: false
@@ -51,7 +53,7 @@ Layout/AlignHash:
   Enabled: false
 Layout/EndAlignment:
   Enabled: false
-Layout/IndentHash:
+Layout/IndentFirstHashElement:
   EnforcedStyle: consistent
 
 Bundler/OrderedGems:
