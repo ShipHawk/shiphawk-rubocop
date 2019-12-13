@@ -38,6 +38,8 @@ Style/NumericLiterals:
   Enabled: false
 Style/IfUnlessModifier:
   Enabled: false
+Style/RedundantSelf:
+  Enabled: false
 
 Metrics/ClassLength:
   Enabled: false

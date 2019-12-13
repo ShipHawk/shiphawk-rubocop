@@ -56,6 +56,7 @@ Then create new version of a gem:
 
 ```
 gem build rubocop-shiphawk.gemspec
+gem push rubocop-shiphawk-xxx.gem
 ```
 
 ## How to: Show statistic:
