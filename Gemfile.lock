@@ -1,30 +1,33 @@
 PATH
   remote: .
   specs:
-    rubocop-shiphawk (1.4.0)
-      rubocop (~> 0.68.1)
-      rubocop-performance (~> 1.0.0)
+    rubocop-shiphawk (1.5.0)
+      rubocop (~> 0.84.0)
+      rubocop-performance (~> 1.6.0)
 
 GEM
   remote: https://rubygems.org/
   specs:
     ast (2.4.0)
-    jaro_winkler (1.5.3)
-    parallel (1.17.0)
-    parser (2.6.3.0)
+    parallel (1.19.1)
+    parser (2.7.1.3)
       ast (~> 2.4.0)
     rainbow (3.0.0)
-    rubocop (0.68.1)
-      jaro_winkler (~> 1.5.1)
+    rexml (3.2.4)
+    rubocop (0.84.0)
       parallel (~> 1.10)
-      parser (>= 2.5, != 2.5.1.1)
+      parser (>= 2.7.0.1)
       rainbow (>= 2.2.2, < 4.0)
+      rexml
+      rubocop-ast (>= 0.0.3)
       ruby-progressbar (~> 1.7)
-      unicode-display_width (>= 1.4.0, < 1.6)
-    rubocop-performance (1.0.0)
-      rubocop (>= 0.58.0)
+      unicode-display_width (>= 1.4.0, < 2.0)
+    rubocop-ast (0.0.3)
+      parser (>= 2.7.0.1)
+    rubocop-performance (1.6.0)
+      rubocop (>= 0.71.0)
     ruby-progressbar (1.10.1)
-    unicode-display_width (1.5.0)
+    unicode-display_width (1.7.0)
 
 PLATFORMS
   ruby
@@ -33,4 +36,4 @@ DEPENDENCIES
   rubocop-shiphawk!
 
 BUNDLED WITH
-   1.16.2
+   1.17.3
