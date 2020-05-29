@@ -1,10 +1,7 @@
 require: rubocop-performance
 
 AllCops:
-  TargetRubyVersion: 2.2.3
-
-Metrics/LineLength:
-  Max: 110
+  TargetRubyVersion: 2.5.3
 
 Style/SymbolArray:
   Enabled: false
@@ -17,8 +14,6 @@ Style/WordArray:
 Style/BlockDelimiters:
   Enabled: false
 Style/DoubleNegation:
-  Enabled: false
-Style/BracesAroundHashParameters:
   Enabled: false
 Style/ParallelAssignment:
   Enabled: false
@@ -38,6 +33,20 @@ Style/NumericLiterals:
   Enabled: false
 Style/IfUnlessModifier:
   Enabled: false
+Style/ExponentialNotation:
+  Enabled: false
+Style/HashEachMethods:
+  Enabled: true
+Style/HashTransformKeys:
+  Enabled: true
+Style/HashTransformValues:
+  Enabled: true
+Style/SlicingWithRange:
+  Enabled: false
+Style/RedundantSelf:
+  Enabled: false
+Style/StringLiterals:
+  Enabled: false
 
 Metrics/ClassLength:
   Enabled: false
@@ -53,18 +62,28 @@ Metrics/PerceivedComplexity:
 Metrics/BlockLength:
   Enabled: false
 
-Layout/AlignHash:
+Layout/LineLength:
+  Max: 110
+Layout/HashAlignment:
   Enabled: false
 Layout/EndAlignment:
   Enabled: false
-Layout/IndentFirstHashElement:
+Layout/FirstHashElementIndentation:
   EnforcedStyle: consistent
+Layout/EmptyLinesAroundAttributeAccessor:
+  Enabled: true
+Layout/SpaceAroundMethodCallOperator:
+  Enabled: true
 
 Bundler/OrderedGems:
   Enabled: false
 
-StringLiterals:
-  Enabled: false
-
 Security/YAMLLoad:
   Enabled: false
+
+Lint/DeprecatedOpenSSLConstant:
+  Enabled: true
+Lint/RaiseException:
+  Enabled: true
+Lint/StructNewOverride:
+  Enabled: true
