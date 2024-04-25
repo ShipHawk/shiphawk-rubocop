@@ -12,8 +12,8 @@ Gem::Specification.new do |spec|
   spec.files                 = Dir['README.md', 'LICENSE', 'config/*.yml', 'lib/**/*']
   spec.homepage              = 'https://git.shiphawk.com/shiphawk/shiphawk-rubocop'
   spec.license               = 'MIT'
-  spec.required_ruby_version = '>= 2.5.3'
+  spec.required_ruby_version = '>= 3.0.0'
 
-  spec.add_dependency 'rubocop', '~> 0.84.0'
-  spec.add_dependency 'rubocop-performance', '~> 1.6.0'
+  spec.add_dependency 'rubocop', '~> 1.63.3'
+  spec.add_dependency 'rubocop-performance', '~> 1.21.0'
 end
